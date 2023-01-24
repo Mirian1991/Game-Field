@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1045px) {
+  /* header */
+  .hamburger {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .logo {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-loginflex {
+    justify-content: center;
+  }
+
+  .logoflex {
+    display: flex;
+    justify-content: center;
+  }
+
+  /*   banner */
+
+  .main-banner {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-image {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-p {
+    width: 400px;
+    min-height: 300px;
+  }
+
+  /*  games */
+
+  .games {
+    display: flex;
+  }
+
+  .more-flex {
+    display: flex;
+  }
+
+  /*  about page */
+
+  .about .contentbx h2 {
+    margin-top: 200px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-image {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 70px;
+  }
+
+  .about .contentbx a {
+    align-items: center;
+  }
+
+  /*  create acount */
+
+  .create-box {
+    margin-top: 200px;
+  }
+
+  /* login */
+
+  .login-box {
+    margin-top: 200px;
+  }
+}
