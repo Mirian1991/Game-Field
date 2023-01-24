@@ -1,11 +1,5 @@
 @media only screen and (max-width: 1045px) {
   /* header */
-  .hamburger {
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-  }
 
   .container {
     display: flex;
@@ -27,6 +21,14 @@
     justify-content: center;
   }
 
+  .searchbox {
+    margin: 0 auto;
+  }
+
+  .show-more {
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
   /*   banner */
 
   .main-banner {
@@ -93,5 +95,12 @@
 
   .login-box {
     margin-top: 200px;
+  }
+
+  /*  mobile games */
+
+  .mobile-games {
+    display: flex;
+    margin-top: 400px;
   }
 }
