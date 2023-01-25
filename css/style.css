@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -177,7 +177,7 @@ li {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
-  margin-top: 300px;
+  margin-top: 100px;
 }
 
 .main {
@@ -461,7 +461,7 @@ li {
   align-items: center;
   flex-direction: column;
   margin: 40px auto;
-  margin-top: 300px;
+  margin-top: 100px;
 }
 
 .mobile-games .mobile {
@@ -688,7 +688,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 100px;
   column-gap: 150px;
 }
 
@@ -742,6 +742,7 @@ footer {
   width: 800px;
   height: 350px;
   border-radius: 8px;
+
   box-shadow: -3px 11px 16px -4px rgba(0, 0, 0, 0.66);
   -webkit-box-shadow: -3px 11px 16px -4px rgba(0, 0, 0, 0.66);
   -moz-box-shadow: -3px 11px 16px -4px rgba(0, 0, 0, 0.66);
@@ -757,7 +758,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  /* margin-top: 100px; */
   margin-bottom: 100px;
 }
 
@@ -846,7 +847,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  /* margin-top: 100px; */
   margin-bottom: 100px;
 }
 
@@ -890,7 +891,7 @@ footer {
   border-color: #1aeeef;
 }
 
-.creat-password {
+.password {
   width: 300px;
   height: 40px;
   padding: 10px;
@@ -954,6 +955,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   margin-bottom: 100px;
+}
+
+.creat-password {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 7px;
+  border-color: #1aeeef;
 }
