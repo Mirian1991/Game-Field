@@ -39,7 +39,6 @@
   }
 
   .banner-image {
-    margin-top: 100px;
     margin-bottom: 40px;
   }
 
@@ -91,16 +90,33 @@
     margin-top: 200px;
   }
 
-  /* login */
-
-  .login-box {
-    margin-top: 200px;
-  }
-
   /*  mobile games */
 
   .mobile-games {
     display: flex;
     margin-top: 400px;
+  }
+}
+
+@media only screen and (max-width: 1045px) {
+  .about {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .about .contentbx h2 {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .banner-image {
+    width: 400x;
+    min-height: 500px;
+  }
+
+  .about-image {
+    width: 450px;
+    height: 250px;
   }
 }
